@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Home Page </title>
+    
+
+</head>
+<body>
+
+    <div class="topnav">
+        <a href="index.html" class="active">Home(S02)</a>
+        <a href="work\A01\trial.html">S01</a>
+
+        <a href="work\A03\Lab3.html">S03</a>
+        <a href="http://localhost:1337">S04</a>
+        <a href="work\A05\config.php">S05</a>
+        <a href="work\report.html">S06</a>
+        <a href="work\A08\A08.html">S08</a>
+        <a href="work\A09\A09.html">S09</a>
+        <a href="work\A03\flag.html">Flags(S03)</a>
+        <a href="work\report.html">Report</a>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="About">
+        <h1> DA377B VT20 COURSE BLOG </h1>
+
+
+        <article>
+
+
+
+            <p><img src=".\work\pngfiles\unnamed.jpg" width="600" height="600" ="Martin"></p>
+
+            <h2>About me</h2>
+
+            <p>
+                Hello My name is Martin Jjooga 25yr , Born and raised in Uganda, Moved to sweden at the Age of 17 <br />
+            </p>
+
+            <p>
+                Studied my highschool at Thorilsplan Gymnasiet 3yr doing an IT introductory programme majoring in Cissco <br />
+                networking, Did my practice with Hauwei in Kista
+            </p>
+
+            <p> In 2017 i decided to take further step within the IT sector and thus i applied for Software Development Course at HKR</p>
+
+            <p>
+                Its one of the best decisions that have ever come my way since it has given me deeper knowledge and understanding of how <br />
+                everything is working out in IT industry and am hoping to build a better career from this Path.
+            </p>
+
+            <p></p>
+
+
+
+        </article>
+
+        <footer>
+            <hr>
+            <p><i>“When am good i'm very good but when i'm bad i'm better ”</i></p>
+            <p><i>- Martin Jjooga, 'The Moto' (2015)</i></p>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <style>
+
+
+
+        html {
+            overflow-y: scroll;
+        }
+
+        body {
+            margin: 8px auto;
+            background: #fff;
+            width: 600px;
+            background-color: blanchedalmond;
+        }
+
+
+
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+            /* Style the links inside the navigation bar */
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                /* Change the color of links on hover */
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                /* Add a color to the active/current link */
+                .topnav a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+        h1 {
+            position: center;
+            padding-left: 100px;
+        }
+    </style>
+
+
+    <div id="duck" class="duck"></div>
+
+
+    <script>
+        "use strict";
+
+        (function () {
+            let duck = document.createElement('div');
+            duck.classList.add('duck');
+            document.body.appendChild(duck);
+            const showDuck = function () {
+                duck.hidden = false;
+            };
+            const moveDuck = function () {
+                console.log("duck clicked");
+                let x = Math.random() * 0.8 * screen.width;
+                let y = Math.random() * 0.8 * screen.height;
+                duck.style.left = x + "px";
+                duck.style.top = y + "px";
+                duck.hidden = true;
+                setTimeout(showDuck, Math.random() * 6000);
+            };
+            duck.onclick = function () {
+                moveDuck();
+            };
+            moveDuck();
+        })();
+
+    </script>
+    <style>
+        .duck {
+            position: absolute;
+            width: 128px;
+            height: 128px;
+            background-size: 128px;
+            background-repeat: no-repeat;
+            background-image: url("duck.png");
+        }
+    </style>
+
+
+
+</body>
+</html>

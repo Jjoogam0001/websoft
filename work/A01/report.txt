@@ -1,0 +1,40 @@
+Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages?
+-----> I quite knew a few functionalities of how github works but now am hoping to add more onto my knowledge though
+before i had some issues with some syntaxes like folk, pull among others.
+
+
+Have you ever created websites before?
+-----> Yes i have created websites before on the design basis using templates which are already made my programmers i.e
+i just designed layouts and buy domain names from host servers.So it was more just graphical web design with no backend
+interractions.
+
+Briefly explain your experience and knowledge of web application development.
+-----> Truthfully i have zero experience in web application, it something i have been waiting on since the start of this program
+and i cant wait for the results and the experience i will get from this course.
+
+
+What is your TIL for this course section?
+20-01-2020---> I have learned how to connect my github to my text editor environment , and furthermore i have learned how to use 
+the basic Github Syntax using terminal and the Github GUI within Visual Studio, Among these syntax include ,Folk,Pull,Clone,
+Push and Cómmit.
+
+
+Do you have any previous experience of client side JavaScript?
+Had no experience in client side javascript before all these happenned.
+
+Can you compare and relate the JavaScript language to any other language you know?
+Yeah i made some comparison with the programming language am aquited to and thats JAVA but there were some differences in terms of
+declaring variables and declaring methods, its quite a different approach in JavaScript.
+
+Describe how you worked with the coding exercise, what grade do you aim for and how did your code turn out to be?
+Did some basic revision and practice plus taking a few courses in JavaScript on Udemy(Study Platform) so as to attain some 
+brief introduction to JavaScript. And the grade am aiming at is 5 if all goes inline.
+
+What is your TIL for this course section?
+Have learned how to make my webpage interactive using Javascript in the BackEnd plus how to initiate some animation on my webpage.
+
+
+"C:\Users\jjoog\source\repos\websoft\Work\pngfiles"
+
+
+

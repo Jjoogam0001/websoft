@@ -1,0 +1,60 @@
+﻿table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 2%;
+}
+
+thead th:nth-child(2) {
+    width: 2%;
+}
+
+thead th:nth-child(3) {
+    width: 2%;
+}
+
+thead th:nth-child(4) {
+    width: 2%;
+    
+}
+
+th, td {
+    padding: 20px;
+}
+
+thead, tfoot {
+    background: url(leopardskin.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+    thead th, tfoot th, tfoot td {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+        border: 3px solid #338fff;
+    }
+
+tbody tr:nth-child(odd) {
+    background-color: #338fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d9e112;
+}
+
+
+table {
+    background-color: #feffff;
+}
+body {
+    background-color: rgb(128, 128, 128);
+    margin: 8px auto;
+    background: #fff;
+    width: 600px;
+    background-color: peachpuff;
+}
+
+

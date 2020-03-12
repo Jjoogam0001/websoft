@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fetching Data from Json API  </title>
+    <link rel="stylesheet" href="Schools.css">
+
+
+</head>
+<body>
+
+    <h1 align="center"> Populating School Table with AJAX</h1>
+    <p align="center"> *** SCHOOLS IN SWEDEN ***<p />
+
+    <div class="container">
+
+        <table id="School-table" class="table" align="center">
+            <thead>
+                <tr>
+                    <th>Kommunkod</th>
+                    <th>PeOrgNr</th>
+                    <th>Skolenhetskod</th>
+                    <th>Skolenhetsnamn</th>
+
+                </tr>
+            </thead>
+            <tbody id="obj">
+            </tbody>
+
+
+        </table>
+
+
+    </div>
+
+    <script>
+
+
+
+
+        fetch('json1.json')
+            .then((response) => {
+                return response.json();
+            })
+            .then((obj) => {
+                console.log(obj);
+                if (obj.length > 0) {
+                    var temp = "";
+                    obj.forEach((u) => {
+                        temp += "<tr>";
+                        temp += "<td>" + u.Kommunkod + "</td>";
+                        temp += "<td>" + u.PeOrgNr + "</td>";
+                        temp += "<td>" + u.Skolenhetskod + "</td>";
+                        temp += "<td>" + u.Skolenhetsnamn + "</td>";
+                        temp += "</tr>";
+
+
+
+
+                    })
+
+                    // close for loop
+
+                    document.getElementById("obj").innerHTML = temp;
+
+
+
+                }
+            });
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>
